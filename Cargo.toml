@@ -1,0 +1,13 @@
+[package]
+name = "ratios"
+version = "1.0.0"
+authors = ["David Wildasin <dragonmaus@posteo.net>"]
+edition = "2021"
+description = "Calculate the best ratios up to a given dimension"
+repository = "https://git.dragonma.us/rust/ratios"
+license = "BSD-3-Clause-Clear"
+categories = ["command-line-utilities"]
+publish = false
+
+[dependencies]
+program = { git = "git://git.dragonma.us/rust/program", version = "1" }
